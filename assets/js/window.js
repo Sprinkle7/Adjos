@@ -1,0 +1,45 @@
+$(document).ready(function(){
+	$("#wind1").click(function(){
+		$("#top_section").slideUp(1000);
+		$("#scholar").show();
+	});
+	$("#wind2").click(function(){
+		$("#top_section").slideUp(1000);
+		$("#top_colleges").show();
+	});
+	$("#wind3").click(function(){
+		$("#top_section").slideUp(1000);
+		$("#pak_scholarships").show();
+	});
+	$("#wind4").click(function(){
+		$("#top_section").slideUp(1000);
+		$("#top_univ").show();
+	});
+	$("#wind5").click(function(){
+		$("#top_section").slideUp(1000);
+		$("#find_job").show();
+	});
+	// rghfghjfghfghjfghfghfghhhhhhhhhhhhhhh
+	$("#back").click(function(){
+		$("#scholar").slideToggle(1000,"swing");
+		$("#top_section").delay(100).slideDown(1000);
+	});
+	$("#back1").click(function(){
+		$("#top_colleges").slideToggle(1000,"swing");
+		$("#top_section").delay(100).slideDown(1000);
+	});
+	$("#back2").click(function(){
+		$("#pak_scholarships").slideToggle(1000,"swing");
+		$("#top_section").delay(100).slideDown(1000);
+	});
+	$("#back3").click(function(){
+		$("#top_univ").slideToggle(1000,"swing");
+		$("#top_section").delay(100).slideDown(1000);
+	});
+	$("#back4").click(function(){
+		$("#find_job").slideToggle(1000,"swing");
+		$("#top_section").delay(100).slideDown(1000);
+	});
+});
+
+
